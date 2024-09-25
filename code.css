@@ -1,0 +1,42 @@
+*{
+    background-color: black;
+}
+
+.one{
+    font-weight: bolder;
+    font-size: 50px;
+    color:white ;
+    text-align: center;
+    position: relative;
+
+
+}
+.code li{
+    list-style-type: none;
+    float: left;
+    letter-spacing: 75px;
+    font-size: 100px;
+    color:rgb(255, 255, 255) ;
+    font-variant-numeric: tabular-nums;
+    position: relative;
+    top: 5px;
+    left: 500px;
+    
+
+}
+
+.code li {
+    filter: blur(30px);
+  }
+  
+  .code li:hover {
+    filter: blur(0px);
+    transition-duration: 0.4s;
+    cursor:pointer
+    
+  }
+  .one:hover {
+    color: red;
+    transition-duration: 1s;
+  }
+  
